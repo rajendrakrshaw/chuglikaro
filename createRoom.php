@@ -23,7 +23,7 @@
             if(mysqli_query($conn, $query)){
                 $message = "Kamra taiyaar hai, chugli suru karo.";
                 echo "<script>alert('$message');</script>";
-                header("refresh:0.1;url=http://localhost/chuglikaro/rooms.php?roomname=".$room);
+                header("refresh:0.1;url=http://localhost/chuglikaro/rooms.php?room=".$room);
             }
         }
     }else{
