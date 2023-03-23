@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="roomForm">
-        <form action="ceateRoom.php" method="post">
+        <form action="createRoom.php" method="post">
             chuglikaro.com/ 
             <input type="text" name="roomName" >
             <input type="submit" value="createRoom" name="submit">
